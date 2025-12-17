@@ -1,0 +1,262 @@
+/* Noto Sans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*body*/
+body {
+    font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, "Open Sans", "Helvetica Neue", sans-serif !important;
+    letter-spacing: 0em;
+}
+html[lang=en] body,html[lang=en] p,html[lang=en] h1,html[lang=en] h2,html[lang=en] h3,html[lang=en] h4,html[lang=en] h5,html[lang=en] h6,html[lang=en] ul,html[lang=en] ol,html[lang=en] li,html[lang=en] dl,html[lang=en] dt,html[lang=en] dd,html[lang=en] table,html[lang=en] th,html[lang=en] td,html[lang=en] form,html[lang=en] fieldset,html[lang=en] legend,html[lang=en] input,html[lang=en] textarea,html[lang=en] button,html[lang=en] select,html[lang=en] div,html[lang=en] figure,html[lang=en] article,html[lang=en] header,html[lang=en] nav,html[lang=en] footer,html[lang=en] section,html[lang=en] input,html[lang=en] textarea,html[lang=en] button,html[lang=en] span,html[lang=en] strong,html[lang=en] pre {
+    font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue',sans-serif;
+}
+div, h1, h2, h3, h4, h5, h6, p {
+    letter-spacing: 0em;
+}
+
+/*font*/
+.f_kar {
+	font-family: 'Karla', sans-serif !important;
+}
+
+/*dft*/
+.dft {
+    word-break: keep-all;
+    color: #111;
+    text-transform: none;
+}
+h1.dft {
+    font-size: 4rem;
+    line-height: 1.3em;
+}
+h1.dft.bigsize {
+    font-size: 5.5rem;
+    line-height: 1.2em;
+}
+h1.dft.huge {
+    font-size: 6.5rem;
+    line-height: 1.2em;
+}
+h2.dft {    
+    font-size: 3.2rem;
+    line-height: 1.3em;
+}
+h3.dft {
+    font-size: 2.8rem;
+    line-height: 1.3em;
+}
+h4.dft {
+    font-size: 2.4rem;
+    line-height: 1.6em;
+}
+h4.dft.mini {
+    font-size: 2.2rem;
+    line-height: 1.4em;
+}
+h5.dft {
+    font-size: 2rem;
+    line-height: 1.6em;
+}
+h6.dft {
+    font-size: 1.4rem;
+    line-height: 1.6em;
+}
+p.dft {
+    font-size: 1.8rem;
+    line-height: 1.6em;
+}
+p.dft.mini {
+    font-size: 1.6rem;
+    line-height: 1.6em;
+}
+
+@media (max-width:380px){
+    h1.dft {
+        font-size: calc(100vw * (32 / 380));
+    }
+    h1.dft.bigsize {
+        font-size: calc(100vw * (40 / 380));
+    }
+    h1.dft.huge {
+        font-size: calc(100vw * (45 / 380));
+    }
+    h2.dft {
+        font-size: calc(100vw * (30 / 380));
+    }
+    h3.dft {
+        font-size: calc(100vw * (24 / 380));
+    }
+    h4.dft {
+        font-size: calc(100vw * (22 / 380));
+    }
+    h4.dft.mini {
+        font-size: calc(100vw * (20 / 380));
+    }
+    h5.dft {
+        font-size: calc(100vw * (16 / 380));
+    }
+    h6.dft {
+        font-size: calc(100vw * (15 / 380));
+    }
+    p.dft {
+        font-size: calc(100vw * (16 / 380));
+    }
+    p.dft.mini {
+        font-size: calc(100vw * (14 / 380));
+    }
+}
+/* word-keep */
+.word-keep {
+    word-break: keep-all;
+}
+.word-break {
+    word-break: break-all;
+}
+/* align */
+.text-center {
+    text-align: center;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+/* font-weight */
+.font-Thin {
+    font-weight: 100 !important;
+}
+.font-ExtraLight {
+    font-weight: 200 !important;
+}
+.font-Light {
+    font-weight: 300 !important;
+}
+.font-Regular {
+    font-weight: 400 !important;
+}
+.font-Medium {
+    font-weight: 500 !important;
+}
+.font-Bold {
+    font-weight: 600 !important;
+}
+.font-ExtraBold {
+    font-weight: 700 !important;
+}
+.font-Heavy {
+    font-weight: 800 !important;
+}
+.font-Black {
+    font-weight: 900 !important;
+}
+
+/* subP */
+.subP {
+    font-weight: 300;
+    letter-spacing: -0.08em;
+}
+
+/*color*/
+.text-light {
+    color: #fff !important;
+}
+.c_bei {
+    color: #99977f !important;
+}
+.c_gd {
+    color: #b6a679 !important;
+}
+.c_rd {
+    color: #f00000 !important;
+}
+.c_org {
+    color: #ff7427 !important;
+}
+.c_lorg {
+    color: #E8B323 !important;
+}
+.c_yl {
+    color: #ffea05 !important;
+}
+.c_rd {
+    color: #ef3f41 !important;
+}
+.c_pk {
+    color: #e30e87 !important;
+}
+.c_pp {
+    color: #37018d !important;
+}
+.c_sky {
+    color: #04a6e1 !important;
+}
+.c_lsky {
+    color: #51e4ff !important;
+}
+.c_bw {
+    color: #967440 !important;
+}
+.c_navy {
+    color: #282468 !important;
+}
+.c_dbl {
+    color: #251ab8 !important;
+}
+.c_bl {
+    color: #2a60e9 !important;
+}
+.c_alp {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.c_dgray {
+    color: #444 !important;
+}
+.c_gr {
+    color: #7E8673 !important;
+}
+.c_dgr {
+    color: #383D33 !important;
+}
+.c_dgr2 {
+    color: #5C6154 !important;
+}
+.c_gray {
+    color: #7A7A7A !important;
+}
+.c_lgray {
+    color: #888 !important;
+}
+.c_lgray2 {
+    color: #999 !important;
+}
+.c_dft {
+    color: #1a308d !important;
+}
+.c_pt {
+    color: var(--main-color) !important;
+}
+.c_pt2 {
+    color: #f8b004 !important;
+}
+/* short_height */
+.short_height {
+    line-height: 1.2em !important;
+}
+
+/* glow */
+.glow {
+    text-shadow: 0px 0px 12px rgba(255,255,255,0.7);
+}
+/* fradient */
+.gr_gd {
+    display: inline-block;
+    background: linear-gradient(to left, #c39d60, #ead194, #c39d60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gr_gd2 {
+    display: inline-block;
+    background: linear-gradient(-39deg, #e0ab80, #fcd7b5 28%, #e67f45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
