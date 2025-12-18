@@ -43,7 +43,7 @@ const Explore: React.FC<ExploreProps> = ({ setIsModalActive }) => {
                 <p className="dft font-Bold mb-none c_gray">
                     1. 6.9 Trillion Total MP Issue <br />
                     2. Combined with stable tokens <br />
-                    3. Utility Reward Methods <br />
+                    3. Utility Reward Methodssss <br />
                     4. the home of Web3 innovation
                 </p>
                 <div className="img conbox conbox_xs">
