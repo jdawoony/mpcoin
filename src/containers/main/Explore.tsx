@@ -1,5 +1,5 @@
 'use client';
-
+import { useEffect, useState } from 'react'; 
 import { Dispatch, SetStateAction } from 'react';
 import Image from 'next/image'
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -29,9 +29,21 @@ interface ExploreProps {
 }
 
 const Explore: React.FC<ExploreProps> = ({ setIsModalActive }) => {
-  const handleMopineClick = () => {
-    setIsModalActive(true);  // 모달 활성화
-  };
+    // 마운트 상태 확인을 위한 State 추가
+    const [mounted, setMounted] = useState(false);
+
+    useEffect(() => {
+      setMounted(true); // 브라우저에 안착했을 때만 true로 변경
+    }, []);
+
+    const handleMopineClick = () => {
+      setIsModalActive(true);
+    };
+
+    // 아직 마운트되지 않았다면(서버라면) 아무것도 그리지 않음
+    if (!mounted) return null;
+
+    
   return (
     <div id="Explore" className="eventItem">
       <Swiper {...swiperOptions}>
