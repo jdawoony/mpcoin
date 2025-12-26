@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { useEffect } from 'react'; // useEffect 추가 서버단에선 아무것도 그리지마
 
 import ModalReady from '../components/ModalReady';
 import Navigation from '../components/Navigation';
@@ -20,6 +21,19 @@ import Tail from '../containers/main/Tail';
 const Home = () => {
   const [isModalActive, setIsModalActive] = useState(false);  // Modal state
   const [isNavigationActive, setIsNavigationActive] = useState(false);  // Navigation state
+
+  // [추가] 브라우저 마운트 체크
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  // 아직 브라우저가 아니라면(서버라면) 아무것도 그리지 않음
+  if (!mounted) {
+    return null;
+  }
+  
   return (
     <main>
       <Header setIsNavigationActive={setIsNavigationActive}  isNavigationActive={isNavigationActive} />
