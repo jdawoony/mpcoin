@@ -16,7 +16,7 @@ const SaveTheEarth = dynamic(() => import('../containers/main/SaveTheEarth'), { 
 const Intergrations = dynamic(() => import('../containers/main/Intergrations'), { ssr: false });
 const Holiday = dynamic(() => import('../containers/main/Holiday'), { ssr: false });
 const Products = dynamic(() => import('../containers/main/Products'), { ssr: false });
-const Explore = dynamic(() => import('../containers/main/Explore'), { ssr: false });
+//const Explore = dynamic(() => import('../containers/main/Explore'), { ssr: false });
 const Links = dynamic(() => import('../containers/main/Links'), { ssr: false });
 const Tail = dynamic(() => import('../containers/main/Tail'), { ssr: false });
 
