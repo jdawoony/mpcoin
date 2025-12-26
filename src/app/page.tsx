@@ -4,7 +4,7 @@ import { useEffect } from 'react'; // useEffect 추가 서버단에선 아무것
 
 import ModalReady from '../components/ModalReady';
 import Navigation from '../components/Navigation';
-import Header from '../components/Header';
+//import Header from '../components/Header';
 import Mpcoin from '../containers/main/Mpcoin';
 import Friends from '../containers/main/Friends';
 import About from '../containers/main/About';
