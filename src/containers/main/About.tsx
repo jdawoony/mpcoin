@@ -23,7 +23,7 @@ const About: React.FC<AboutProps> = ({ setIsModalActive }) => {
                                 <h1 className="dft font-ExtraBold text-light tt conbox conbox_xs">ABOUT</h1>
                                 <Image
                                     className="logo"
-                                    src="/images/BI_molepin_sm.png"
+                                    src="/images/bi_molepin_sm.png"
                                     alt="Mpcoin logo"
                                     width={183}
                                     height={57}
