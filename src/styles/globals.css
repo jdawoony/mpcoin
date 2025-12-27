@@ -1209,6 +1209,7 @@ a {
   font-weight: 800;
   padding: 10px;
   gap: 3px;
+  color: #fff !important;
 }
 #Navigation ul li a.noSpace {
   justify-content: center;
