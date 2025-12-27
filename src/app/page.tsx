@@ -21,7 +21,7 @@ const Links = dynamic(() => import('../containers/main/Links'), { ssr: false });
 const Tail = dynamic(() => import('../containers/main/Tail'), { ssr: false });
 
 const Home = () => {
-  const [isModalActive, setIsModalActive] = useState(false);ㅌ
+  const [isModalActive, setIsModalActive] = useState(false);
   const [isNavigationActive, setIsNavigationActive] = useState(false);
 
   return (
